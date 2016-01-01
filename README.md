@@ -1,5 +1,6 @@
 # shinzui/tmux
-Just a bunch of dotfiles.
+
+My tmux config
 
 ## Install
 Clone and symlink or install with [ellipsis][ellipsis]:
