@@ -15,9 +15,12 @@ pkg.install() {
 #     git.push
 # }
 
-# pkg.pull() {
-#     git.pull
-# }
+pkg.pull() {
+    git.pull
+  ~/.tmux/plugins/tpm/scripts/install_plugins.sh
+  #need to pass all as second argument
+  ~/.tmux/plugins/tpm/scripts/update_plugin.sh blah all
+}
 
 # pkg.installed() {
 #     git.status
