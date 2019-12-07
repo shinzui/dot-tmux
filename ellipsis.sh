@@ -7,7 +7,6 @@ pkg.install() {
   git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
   fs.link_file tmux.conf
-  fs.link_file tmux.theme
 
   ~/.tmux/plugins/tpm/bin/install_plugins
 }
